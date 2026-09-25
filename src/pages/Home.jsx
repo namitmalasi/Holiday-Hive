@@ -1,8 +1,17 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+
 function Home() {
   return (
     <main>
-      <h1 className="text-4xl font-bold">HolidayHive</h1>
-      <p>Discover places you'll never forget.</p>
+      <Navbar />
+      <Hero />
+
+      {/* Temporary sections */}
+      <section id="destinations" className="h-20" />
+      <section id="packages" className="h-20" />
+      <section id="about" className="h-20" />
+      <section id="contact" className="h-20" />
     </main>
   );
 }
