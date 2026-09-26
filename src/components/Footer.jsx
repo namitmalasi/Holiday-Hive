@@ -11,7 +11,7 @@ function Footer() {
           {/* Brand */}
           <div>
             <a href="#home" className="text-2xl font-bold tracking-tight">
-              Wander<span className="text-orange-300">ly</span>
+              Holiday<span className="text-orange-300">Hive</span>
             </a>
 
             <p className="mt-5 max-w-sm text-sm leading-6 text-white/55">
@@ -125,10 +125,10 @@ function Footer() {
                 <Mail size={17} className="mt-0.5 shrink-0 text-orange-300" />
 
                 <a
-                  href="mailto:hello@wanderly.com"
+                  href="mailto:hello@holidayhive.com"
                   className="text-sm text-white/55 transition hover:text-orange-300"
                 >
-                  hello@wanderly.com
+                  hello@holidayhive.com
                 </a>
               </div>
 
@@ -163,7 +163,7 @@ function Footer() {
         {/* Bottom */}
         <div className="mt-14 flex flex-col gap-4 border-t border-white/10 pt-7 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-white/40">
-            © {currentYear} Wanderly. All rights reserved.
+            © {currentYear} HolidayHive. All rights reserved.
           </p>
 
           <div className="flex gap-5">

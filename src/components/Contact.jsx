@@ -103,7 +103,7 @@ function Contact() {
 
                 <div>
                   <p className="text-xs text-white/50">Email</p>
-                  <p className="mt-1 text-sm">hello@wanderly.com</p>
+                  <p className="mt-1 text-sm">hello@holidayhive.com</p>
                 </div>
               </div>
 

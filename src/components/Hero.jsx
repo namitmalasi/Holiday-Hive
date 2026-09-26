@@ -4,7 +4,7 @@ function Hero() {
   return (
     <section
       id="home"
-      className="relative flex min-h-[720px] items-center overflow-hidden"
+      className="relative flex min-h-170 items-center overflow-hidden sm:min-h-180"
     >
       {/* Background Image */}
       <div
@@ -30,7 +30,7 @@ function Hero() {
           </div>
 
           {/* Heading */}
-          <h1 className="font-display text-5xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-8xl">
+          <h1 className="font-display text-4xl font-semibold leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-8xl">
             Discover places
             <span className="block text-orange-200">you'll never forget.</span>
           </h1>

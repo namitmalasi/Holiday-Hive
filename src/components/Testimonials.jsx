@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Ananya Sharma",
     location: "Mumbai, India",
-    text: "Wanderly made our Bali trip incredibly easy. Everything was well planned, and we could actually focus on enjoying the holiday.",
+    text: "HolidayHive made our Bali trip incredibly easy. Everything was well planned, and we could actually focus on enjoying the holiday.",
   },
   {
     name: "Rohan Mehta",
@@ -32,7 +32,7 @@ function Testimonials() {
           </h2>
 
           <p className="mt-5 text-sm leading-6 text-gray-500">
-            Real experiences from travelers who chose to explore with Wanderly.
+            Real experiences from travelers who chose to explore with HolidayHive.
           </p>
         </div>
 

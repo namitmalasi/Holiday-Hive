@@ -56,7 +56,8 @@ function Navbar() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="mx-4 rounded-2xl bg-white p-5 shadow-xl md:hidden">
+        <div className="mx-4 mt-2 rounded-2xl bg-white p-5 shadow-xl md:hidden">
+          {" "}
           <div className="flex flex-col gap-4">
             {navLinks.map((link) => (
               <a
@@ -72,7 +73,7 @@ function Navbar() {
             <a
               href="#packages"
               onClick={() => setIsOpen(false)}
-              className="rounded-full bg-[#18332f] px-5 py-3 text-center text-sm font-semibold text-white"
+              className="rounded-lg px-2 py-2 text-sm font-medium text-[#18332f] transition hover:bg-gray-50"
             >
               Explore Trips
             </a>

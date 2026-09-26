@@ -3,10 +3,7 @@ import destinations from "../data/destinations";
 
 function Destinations() {
   return (
-    <section
-      id="destinations"
-      className="bg-[#f8f7f3] px-6 py-24 lg:px-8"
-    >
+    <section id="destinations" className="bg-[#f8f7f3] px-6 py-24 lg:px-8">
       <div className="mx-auto max-w-7xl">
         {/* Section Header */}
         <div className="flex flex-col justify-between gap-6 md:flex-row md:items-end">
@@ -32,7 +29,7 @@ function Destinations() {
           {destinations.map((destination) => (
             <article
               key={destination.id}
-              className="group relative h-[400px] overflow-hidden rounded-[28px] bg-gray-200"
+              className="group relative h-[360px] overflow-hidden rounded-[28px] bg-gray-200 sm:h-[400px]"
             >
               {/* Image */}
               <img
@@ -49,7 +46,7 @@ function Destinations() {
               <button
                 type="button"
                 aria-label={`Explore ${destination.name}`}
-                className="absolute right-5 top-5 flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-[#18332f] opacity-0 shadow-lg transition duration-300 group-hover:opacity-100"
+                className="absolute right-5 top-5 flex h-11 w-11 items-center justify-center rounded-full bg-white/90 text-[#18332f] opacity-0 shadow-lg transition duration-300 opacity-100 sm:opacity-0 sm:group-hover:opacity-100"
               >
                 <ArrowUpRight size={19} />
               </button>

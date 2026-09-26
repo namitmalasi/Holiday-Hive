@@ -10,20 +10,16 @@
   text-rendering: optimizeLegibility;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
 }
 
 body {
   min-width: 320px;
   min-height: 100vh;
   background: #f8f7f3;
+  overflow-x: hidden;
 }
 
 button,
@@ -35,6 +31,11 @@ select {
 
 button {
   cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .font-display {
