@@ -3,6 +3,8 @@ import Hero from "../components/Hero";
 import Destinations from "../components/Destinations";
 import Packages from "../components/Packages";
 import About from "../components/About";
+import Testimonials from "../components/Testimonials";
+import Contact from "../components/Contact";
 
 function Home() {
   return (
@@ -12,9 +14,8 @@ function Home() {
       <Destinations />
       <Packages />
       <About />
-      {/* Temporary sections */}
-
-      <section id="contact" className="h-20" />
+      <Testimonials />
+      <Contact />
     </main>
   );
 }
